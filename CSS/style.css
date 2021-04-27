@@ -5,25 +5,27 @@ body {
     font-family: system-ui;
 }
 .button-primary {
-    background: red;
+    background: darkred;
     color: white;
     text-decoration: none;
     padding: 8px;
     border: 1px solid #ccc;
     border-radius: 4px;
-    font-size: 18px;
+    font-size: 15px;
 }  	
 
 .header-container {
-   background: red;
+   background: darkred;
    overflow: auto;
    color: white;
    text-align: center;
 }
 
 .footer-container {
-    padding: 12px;
+    padding: 10px;
     text-align: center;
+    background: black;
+    overflow: auto;
 }
 
 .center-image {
