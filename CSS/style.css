@@ -1,0 +1,45 @@
+body {
+    text-align: center;
+    background: #020827;
+    color: white;
+    font-family: system-ui;
+}
+.button-primary {
+    background: red;
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 18px;
+}  	
+
+.header-container {
+   background: red;
+   overflow: auto;
+   color: white;
+   text-align: center;
+}
+
+.footer-container {
+    padding: 12px;
+    text-align: center;
+}
+
+.center-image {
+    margin: auto;
+    display: block;
+}
+
+.image-animation {
+    animation: 5s ease image-animation;
+}
+
+@keyframes image-animation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
