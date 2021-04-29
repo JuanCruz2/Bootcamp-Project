@@ -1,9 +1,15 @@
 body {
     text-align: center;
-    background: #020827;
+    background: url(../CSS/img/fondo.jpg);
+    background-size: 100% 100% ;
     color: white;
-    font-family: system-ui;
+    font-family: -webkit-pictograph;
+    
 }
+    
+
+
+
 .button-primary {
     background: darkred;
     color: white;
@@ -15,16 +21,17 @@ body {
 }  	
 
 .header-container {
-   background: darkred;
+   
    overflow: auto;
    color: white;
    text-align: center;
+   
 }
 
 .footer-container {
     padding: 10px;
+    color: white;
     text-align: center;
-    background: black;
     overflow: auto;
 }
 
@@ -44,4 +51,15 @@ body {
     100% {
         opacity: 1;
     }
+}
+
+.main-class {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+   
+}
+
+.logo-imagen {
+    width: 100%;
+    max-width: 500px;
 }
