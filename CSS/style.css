@@ -1,6 +1,6 @@
 body {
     text-align: center;
-    background: url(../CSS/img/fondo.jpg);
+    background: url(../CSS/img/background\ prueba.jpg);
     background-size: 100% 100% ;
     color: white;
     font-family: -webkit-pictograph;
@@ -25,6 +25,7 @@ body {
    overflow: auto;
    color: white;
    text-align: center;
+   
    
 }
 
