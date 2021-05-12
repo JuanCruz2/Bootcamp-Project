@@ -1,6 +1,6 @@
 body {
-    text-align: center;
-    background: url(../CSS/img/background\ prueba.jpg);
+    
+    background: url(../CSS/img/background\ n1000.jpg);
     background-size: 100% 100% ;
     color: white;
     font-family: -webkit-pictograph;
@@ -54,13 +54,34 @@ body {
     }
 }
 
-.main-class {
-    color: white;
+.parrafo { 
+    color: floralwhite;
     font-family: 'Courier New', Courier, monospace;
+    font-size:medium;
+    width: 1000px;
+    height: auto;
+    margin-left: 100px;
+
+    
+   
    
 }
 
 .logo-imagen {
     width: 100%;
     max-width: 500px;
+    margin-left: 400px;
+}
+
+.finalfooter {
+    color: #999;
+    font-size: 12px;
+    text-decoration: none;
+    line-height: 1.2em;
+    padding: 0 10px;
+    margin-bottom: 10px;
+}
+
+.divfooter {
+    margin: 20px
 }
