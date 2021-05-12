@@ -1,13 +1,23 @@
+html {
+    height: 100%;
+}
+
 body {
-    
     background: url(../CSS/img/background\ n1000.jpg);
-    background-size: 100% 100% ;
+    background-size: cover;
+    background-position: right;
     color: white;
     font-family: -webkit-pictograph;
-    
+    height: 100%;
+    margin: 0;
 }
     
-
+.scrollable-content {
+    height: 100%;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+}
 
 
 .button-primary {
@@ -22,7 +32,6 @@ body {
 
 .header-container {
    
-   overflow: auto;
    color: white;
    text-align: center;
    
@@ -33,7 +42,7 @@ body {
     padding: 10px;
     color: white;
     text-align: center;
-    overflow: auto;
+    margin-top: auto;
 }
 
 .center-image {
@@ -58,28 +67,38 @@ body {
     color: floralwhite;
     font-family: 'Courier New', Courier, monospace;
     font-size:medium;
-    width: 1000px;
-    height: auto;
-    margin-left: 100px;
+    width: 100%;  
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
 
-    
-   
-   
+.marvel-logo {
+
+    width: 100%;
+    max-width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .logo-imagen {
     width: 100%;
     max-width: 500px;
-    margin-left: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.finalfooter {
+
+
+.links-container {
+    margin: 20px
+}
+
+.links-container a {
     color: #999;
     font-size: 12px;
     padding: 0 10px;
-    
-}
-
-.divfooter {
-    margin: 20px
 }
